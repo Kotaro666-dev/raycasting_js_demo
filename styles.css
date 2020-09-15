@@ -1,0 +1,49 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background: #555;
+}
+
+canvas {
+    display: block;
+    margin: auto;
+    width: 100%;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #fff;
+    background:#383838;
+
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.help {
+    color: white;
+    font-size: 1rem;
+    display: block;
+    width: 300px;
+    text-align: left;
+
+    margin-left: 10px;
+}
+
+.help ul {
+    list-style: none;
+    padding: 0;
+}
+
+.help li {
+    line-height: 30px;
+}
+
+footer {
+    color: white;
+
+    position: absolute;
+    top: 93%;
+    left: 50%;
+    transform: translateX(-50%);
+}
